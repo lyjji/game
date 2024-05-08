@@ -40,7 +40,7 @@ chck.addEventListener("click", (e) => {
       ? "<img src='img/bingo.jpg' />"
       : i == 0
       ? "<img src='img/fail.jpg' />"
-      : unum < 0 || unum > 100
+      : unum < 1 || unum > 100
       ? "<img src='img/fail.jpg' />"
       : cnum > unum
       ? "<img src='img/up.png' />"
@@ -55,7 +55,7 @@ chck.addEventListener("click", (e) => {
       ? "Bingo!!"
       : i == 0
       ? `땡!!! 정답은 ${cnum}!`
-      : unum < 0 || unum > 100
+      : unum < 1 || unum > 100
       ? "1 ~ 100까지의 숫자를 입력해주세요!"
       : cnum > unum
       ? "up!"
