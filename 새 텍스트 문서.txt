@@ -1,0 +1,40 @@
+html
+div#game
+h2숫자 맞추기 게임
+span-start?#result.on(가운데
+span/p(이미지 옆) 남은 찬스 : #chance5
+form
+label숫자는?
+input#num placefolder=1~100
+button#check 확인<br>
+button#start 시작 button#restart 재시작
+
+css
+초기화
+#game 테두리 둥글게 검은색 두껍게(모니터 느낌
+h2 크기조절 가운데 정렬 글씨체font-family: "Jua", sans-serif;
+img 크기 지정 가운데 정렬 옆으로 남은 찬스
+input 크기조절 너무 길지 않게 테두리 살짝 둥글게
+button 시작 재시작 크기 똑같이 색깔 다르게 확인 아래로 내리기
+시작 버튼 비활성화 색 흐리게 
+
+js
+#result이미지
+#chance남은 찬스
+#check확인
+#num입력창
+#start 시작
+#restart재시작
+
+#num입력창 클릭시 입력 초기화
+
+#start시작 버튼 누르면 #result start이미지 출력
+#check클릭 #result업다운빙고 이미지 출력 (새로고침 막기
+#chance 숫자 줄어들기 0일 때 #start 비활성화(playButton.disabled = true; 
+#result <p>답 출력
+
+#restart 누를시 새로고침 #result start 출력
+
+up 이미지 줄이기
+이미지마다  up down bingo 텍스트 넣기
+

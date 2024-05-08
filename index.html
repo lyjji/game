@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>숫자 맞추기 게임</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="game">
+      <h2>숫자 맞추기 게임</h2>
+      <span id="result">
+        <img src="img/st.jpg" />
+      </span>
+      <span class="chcefront">남은 찬스 : </span>
+      <span id="chance">5</span>
+      <p id="resulttxt">시 ~ 작 ♪</p>
+      <form>
+        <label>숫자는? </label>
+        <input id="num" placeholder=" 1~100 " />
+        <button id="check">확인</button>
+      </form>
+      <button id="restart">재시작</button>
+    </div>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
